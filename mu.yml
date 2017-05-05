@@ -4,6 +4,7 @@ environments:
 service:
   name: mu-test
   port: 80
+  healthEndpoint: /index.html
   pathPatterns:
   - /*
   pipeline:
